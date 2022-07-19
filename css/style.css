@@ -5,7 +5,18 @@
 
 /* Responsive Design Layout  */
 
-
+@media only screen and (max-width: 800px) {
+    
+    .player-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .single-player{
+        flex-direction: column;
+    }
+    .latest-course-section-articles{
+        flex-direction: row;
+    }
+}
 *{
     margin: 0;
     padding: 0;
@@ -14,8 +25,9 @@ main{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
     align-items: center;
-    margin-top: 20px;
+   
 }
 h2{
         font-family: 'Poppins';
@@ -37,7 +49,7 @@ body{
         background: #130b3f;
 }
 nav{
-        width: 100%;
+        width: 1350px;
         height: 94px;
         background: #562EFF;
         display: flex;
@@ -45,10 +57,13 @@ nav{
         
         
 }
+header{
+    display: flex;
+    justify-content: center;
+}
 .logo{
         display: flex;
         align-items: center;
-        margin-left: 285px;
 }
 .logo div{
         padding: 10px;
@@ -69,7 +84,7 @@ nav{
         display: flex;
         align-items: center;
         gap: 36px;
-        margin-right: 285px;
+        
 }
 span{
         font-family: 'Poppins';
