@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 /* Fonts - Poppins */
 /* Header Style Start */
+
+/* Responsive Design Layout  */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +15,7 @@ main{
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    margin-top: 20px;
 }
 h2{
         font-family: 'Poppins';
@@ -37,7 +42,7 @@ nav{
         background: #562EFF;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 20px;
+        
         
 }
 .logo{
